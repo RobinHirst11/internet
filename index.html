@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous Speed Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Speed Test</h1>
+    <div class="progress">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div class="result" id="result">Click Start Test to begin</div>
+    <div class="stats" id="stats"></div>
+    <button onclick="toggleTest()" id="startButton">Start Test</button>
+
+    <script src="config.js"></script>
+    <script src="speedTest.js"></script>
+</body>
+</html>
